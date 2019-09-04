@@ -1,0 +1,503 @@
+.blueText{color:#00a0e9}
+.orangeText{color:#ff6600}
+.redText{color:#ff2610}
+.greenText{color:#33a028}
+.yellowText{color:#f4901e}
+.mainColor{color:#4c84ff}
+.lightColor{color:#909399}
+body,div,blockquote,p,pre,h1,h2,h3,h4,h5,h6,hr,table,tr,td,ul,li,ol,dl,dt,dd,form,input,textarea,select,button,fieldset,legend,span,em,i,a{margin:0;padding:0;}
+.shadow{filter:progid:DXImageTransform.Microsoft.Shadow(color=#d6d6d6,direction=180,strength=3);box-shadow: 0 2px 4px rgba(34, 25, 25, 0.2);}
+ol,ul{list-style:none}
+.clearfix:before,.clearfix:after{content:"";display:table;}
+.clearfix:after{clear:both;}
+/*搜索*/
+.searchForm{ background:#fff; padding:20px 20px 0; border:1px solid #e6e6e6; }
+.searchForm .searchBtnWrap{position:relative;}
+.dataTable{ background:#fff; border:1px solid #e6e6e6; margin-top:30px; }
+.tableWrapSpace{padding:10px 20px;}
+.tableBtnWrap{ border-bottom: 1px solid #e6e6e6;}
+.contentWrap .btnIcon{margin-right:4px;font-size:14px;}
+.tableBtnWrap button{margin-right:15px;}
+.buleText{color:#1CACED}
+.remarkTextColor{color:#999999}
+.textEllipsis{white-space:nowrap; overflow:hidden; text-overflow:ellipsis; display: block}
+.emptyText{color:#909399}
+.box-shadow{
+  box-shadow:2px 2px 8px #888;/*operaæˆ–ie9*/
+}
+.hand{cursor: pointer}
+.pd20{ padding:20px; }
+.mb10{ margin-bottom: 10px;}
+.jobAttStats{ margin-right: 30px; line-height: 26px; font-size:14px; }
+.jobAttStats .attState{ padding:2px 5px; border-radius: 4px; color:#fff; }
+.jobAttStats .warn{ background: #F56C6C; }
+.jobAttStats .normal{ background: #67C23A; }
+.jobAttStats .yellowBg{ background: #eaac58; }
+.jobAttStats .other{ background: #2c2e33 }
+
+/*数据中心---人员列表*/
+.memberCount{
+  margin-top:10px;
+  margin-bottom: 10px;
+  height:30px;
+  .mainTit{
+    font-size:20px;
+    line-height:30px;
+    font-weight: bold;
+    float: left;
+    margin-right: 20px;
+  }
+  .countInfo{
+    float: left;
+    line-height: 35px;
+    margin-right: 30px;
+  }
+  .countTit{
+    font-size:14px;
+  }
+  .countNum{
+    font-size:18px;
+    font-weight: bold;
+    color:#5584ff
+  }
+}
+
+/*数据中心---设备管理*/
+.deviceList{
+    width:100%;
+    height:100px;
+    padding:20px 20px;
+    background: #fff;
+    margin:15px 0;
+    border:1px solid #e6e6e6;
+  .deviceIcon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding:12px;
+    font-size:34px;
+    text-align: center;
+    line-height:1;
+    color:#fff;
+    background: #c3cbd9;
+    float: left;
+  }
+  .icon-spray{
+    background: #409eff;
+  }
+  .icon-crane{
+    background: #ebb563;
+  }
+  .icon-video{
+    background: #f78989;
+  }
+  .icon-water-tank{
+    background: #35affb;
+  }
+  .icon-device{
+    background: #5daf34;
+  }
+  .deviceText{
+    font-size:16px;
+    float: left;
+  }
+  .deviceTit{
+    font-size:15px;
+    font-weight: 500;
+    display: block;
+    line-height:26px;
+    margin-bottom:10px;
+    color:#888;
+  }
+  .deviceData{
+    font-size:18px;
+  }
+  .deviceDataIcon{
+    font-size:18px;
+  }
+  .deviceName{
+    width:10%;
+    padding-left:30px;
+  }
+  .deviceState{
+    width:10%;
+  }
+  .deviceStateTime{
+    width:20%;
+  }
+  .deviceManager{
+    width:20%;
+  }
+  .deviceManagerMobile{
+    width:20%;
+  }
+  .deviceOperate{
+    width:10%;
+    float: right;
+  }
+}
+
+/*数据中心---环境监控*/
+.envMonitor{
+  height:auto;
+  margin:0 -1% 30px -1%;
+  box-sizing: border-box;
+  .col5{
+    width:20%;
+  }
+  .envItem{
+    height:auto;
+    padding:0 1%;
+    float: left;
+    margin-bottom:2%;
+  }
+  .itemCont{
+    height:100%;
+    background:#fff;
+    border:1px solid #e6e6e6;
+    padding:15% 10%;
+  }
+  .progressWrap{
+    height: auto;
+    padding:10%;
+  }
+  .itemNum{
+    font-size: 30px;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    color:#666;
+    margin-bottom: 10px;
+  }
+  .itemTit{
+    font-size:20px;
+    line-height: 24px;
+    text-align: center;
+    color:#666;
+
+  }
+
+}
+
+/*人员列表*/
+.tableFaceWrap{
+  width: 50px;
+  height: 65px;
+  margin: 0 auto;
+  overflow: hidden;
+  cursor: pointer;
+}
+.tableFaceWrap .tableFace{
+  width: 50px;
+  max-height: 65px;
+  height: 65px;
+}
+.tableFaceWrap .uploadFaceIcon{
+  font-size:24px;
+  display:block;
+  margin-top:20px;
+  color:#1CACED;
+}
+.tableData .authStateIcon{
+  font-size: 22px;
+  color:#fff;
+  background: #ccc;
+  padding: 5px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  font-weight: normal;
+}
+.tableData .icon-idcard{
+  background:#f9591b;
+}
+.tableData .icon-approve{
+  background:#ef8f1d;
+}
+.tableData .icon-blackList{
+  background:#656565;
+}
+.tableData .icon-notAuth{
+  background:#bbbbbb;
+}
+.tableData .icon-card{
+  background:#1296db;
+}
+
+/*表格默认头像&ID,IC卡*/
+.tableData .table-user-header{
+  width: 50px;
+  height:65px;
+  background:#c3cbd9;
+  display: inline-block;
+  font-size:42px;
+  line-height:65px;
+  text-align: center;
+  color:#fcfcfc;
+}
+.tableData .table-user-card{
+  width: 50px;
+  height:65px;
+  background:#1296db;
+  display: inline-block;
+  font-size:42px;
+  line-height:65px;
+  text-align: center;
+  color:#fcfcfc;
+}
+
+.tableData .table-column-block{
+  margin:2px 0 0 0;
+  line-height:16px;
+}
+
+/*添加人员上传头像*/
+.memberInfoBottom .inputWd120{
+  width: 140px;
+}
+.memberInfoBottom .custom-label{
+  width: 52px;
+  display: inline-block;
+  text-align: right;
+  padding-right: 10px;
+}
+.remarkTextArea{
+  width:470px;
+}
+.memberInfoTop{
+  height: 140px;
+}
+.inputWd280{
+  width: 260px;
+}
+.leftInfo{
+  float:left;
+  width:380px;
+}
+.addFaceWrap{
+  float:right;
+  margin-right:10px;
+  width: 120px;
+  height: 140px;
+}
+.faceInfo{
+  width:100%;
+  height:100%;
+}
+.face-uploader{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #d9d9d9;
+  cursor: pointer;
+  position: relative;
+  display:block;
+}
+.face-uploader-tag {
+  font-size: 12px;
+  color: #666666;
+  width: 20px;
+  height: 66px;
+  line-height: 14px;
+  position:absolute;
+  top: -2px;
+  left: -21px;
+  display: block;
+  background: #eee;
+  text-align:center;
+  padding-top:5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.face-uploader .face-uploader-icon{
+  font-size: 80px;
+  color: #000;
+  position:absolute;
+  display: block;
+  opacity: 0.2;
+  left:50%;
+  top:50%;
+  margin-left:-40px;
+  margin-top:-15px;
+}
+.face-uploader-icon:hover{
+  opacity:0.8;
+}
+.upload_input{
+  display: none;
+  opacity: 0;
+}
+.uploadedFaceWrap{
+  margin: 5px;
+  text-align: center;
+  overflow: hidden;
+}
+.faceImg{
+  max-width: 110px;
+  max-height: 130px;
+}
+
+/*上传头像大尺寸*/
+.eidtFaceWrap{
+  width: 340px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.eidtFaceWrap .faceInfo{
+  width:100%;
+  height:100%;
+}
+.eidtFaceWrap .faceImg{
+  max-width: 330px;
+  max-height: 390px;
+}
+
+
+
+/*uploadExcel*/
+.importFixedBar{
+  background:#d3dce6;
+  height:50px;
+  line-height: 50px;
+  padding:0 20px;
+  text-align:right;
+}
+.importFixedBar .importTit{
+  float: left;
+  line-height: 50px;
+  margin: 0;
+  color:#666;
+  font-size: 16px;
+}
+.importFixedBar .viewDemo{
+  color:#009FE9;
+  cursor: pointer;
+}
+.importFixedBar .viewDemo:hover{
+  text-decoration:underline;
+}
+.importStepBar{
+  background:#fff;
+  padding:50px;
+  border:1px solid #e6e6e6;
+}
+.importStepBar .importStepIcon{
+  font-size:42px;
+  font-weight:100;
+  /*color:#009FE9;*/
+}
+.importStepBar .el-step__icon.is-icon{
+  width:80px;
+}
+.importStepBar .el-step__title.is-finish{
+  color:#009FE9;
+}
+.importStepBar .el-step__head.is-finish {
+  color: #009FE9;
+  border-color: #009FE9;
+}
+.importBtnsWrap{
+  text-align: center;
+  padding-top:50px;
+}
+.uploadBtnWrap{
+  background:#fff;
+  padding:20px 0;
+  border:1px solid #e6e6e6;
+  border-top:0 none;
+  text-align: center;
+}
+.importExplain{margin-top:30px;}
+.importExplain p{
+  line-height:28px;
+  margin:0;
+  font-size:14px;
+  color:#666;
+}
+.importExplain .explainTit{
+  color:#ff6600
+}
+
+.uploadImgWrap{
+  margin-top:30px;
+}
+.uploadImgCont{
+  background:#fff;
+  padding:20px 10px;
+  border:1px solid #e6e6e6;
+}
+.uploadImgWrap .el-upload--picture-card{
+  width:120px;
+  height:140px;
+  margin:32px 20px 32px 60px;
+}
+.uploadImgWrap .el-upload-list--picture-card .el-upload-list__item{
+  width:120px;
+  height:160px;
+  margin:32px 20px 32px 60px;
+  border: none;
+
+}
+.uploadImgWrap .upload-list-imgWrap{
+  width:120px;
+  height:140px;
+  background-color: #fff;
+  border: 1px solid #c0ccda;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.uploadImgWrap .el-upload-list--picture-card .el-upload-list__item-name{
+  display: block;
+  width:100%;
+}
+.uploadImgWrap .el-upload-list--picture-card .el-upload-list__item-thumbnail{
+  width:100%;
+  height:auto;
+}
+.uploadImgWrap .el-upload-list--picture-card .el-upload-list__item-actions{
+  height:140px;
+}
+.uploadImgWrap .el-upload-list--picture-card .el-progress{
+  top:45%;
+}
+/*upload-list-error-label*/
+.el-upload-list--picture-card .errorTag {
+ background:#ff2610;
+}
+.el-upload-list--picture-card .el-upload-list__item .errorIcon{
+  display: block;
+  color: #fff;
+  top: -2px;
+  left: 5px;
+  font-size: 14px;
+  transform: rotate(-45deg);
+  opacity: 1;
+}
+.el-dropdown-link{
+  color:#00a0e9;
+  cursor: pointer;
+}
+.faceHandelBtnWrap{
+  margin-top:20px;
+  text-align: center;
+}
+
+.completeResult{
+  background:#fff;
+  padding:30px 30px 80px;
+  border:1px solid #e6e6e6;
+  text-align: center;
+  margin-top:30px;
+}
+.completeResult .importCompleteIcon{
+  font-size:52px;
+  color:#F56C6C;
+}
+
+.el-table--striped .el-table__body tr.el-table__row--striped.current-row td, .el-table__body tr.current-row>td, .el-table__body tr.hover-row.current-row>td, .el-table__body tr.hover-row.el-table__row--striped.current-row>td, .el-table__body tr.hover-row.el-table__row--striped>td, .el-table__body tr.hover-row>td {
+  background-color: #f4f6ff;
+}
+
+
+
